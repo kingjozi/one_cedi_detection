@@ -34,7 +34,7 @@ while True:
 camera.release()
 cv2.destroyAllWindows()
 
-im_path = '/Users/josiah/Desktop/me/opencv/one_cedi_detection/oneCedi.jpg'
+im_path = ''
 read_image = cv2.imread(im_path)
 texts = easyocr.Reader(['en'], gpu = False)
 text = texts.readtext(read_image)
